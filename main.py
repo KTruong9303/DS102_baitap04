@@ -6,14 +6,13 @@ import scikit-learn
 
 class_list = {'0': 'Setosa', '1': 'Versicolor', '2': 'Virginica'}
 
-
 st.title('Iris classification based on sepal and petal size')
 
 image = Image.open('iris.jpg')
 st.image(image)
 
-input = open('lrc_iris(1).pkl', 'rb')
-model = pkl.load(input)
+# input = open('lrc_iris(1).pkl', 'rb')
+# model = pkl.load(input)
 
 
 st.header('Choose the size of sepal and petal size')
