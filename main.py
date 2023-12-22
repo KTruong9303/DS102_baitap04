@@ -3,6 +3,16 @@ import pickle as pkl
 from PIL import Image
 import numpy as np
 
+st.markdown(
+    """
+    <style>
+        .st-eb {
+            background-color: blue; /* Change this to your desired color */
+        }
+    </style>
+    """,
+    unsafe_allow_html=True
+)
 
 class_list = {'0': 'Setosa', '1': 'Versicolor', '2': 'Virginica'}
 
