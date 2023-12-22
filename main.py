@@ -6,7 +6,8 @@ import numpy as np
 st.markdown(
     """
     <style>
-        .st-eb {
+        # .st-eb {
+        .streamlit-slider .stSlider > div {
             background-color: purple !important;  /* Change this to your desired color */
         }
     </style>
