@@ -7,7 +7,7 @@ st.markdown(
     """
     <style>
         .st-eb {
-            background-color: blue; /* Change this to your desired color */
+            background-color: purple !important;  /* Change this to your desired color */
         }
     </style>
     """,
