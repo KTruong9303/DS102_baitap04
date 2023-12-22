@@ -21,7 +21,7 @@ sepal_width = st.slider('Sepal width (cm)', 0.0, 20.0, 2.7, 0.1)
 petal_length = st.slider('Petal length (cm)', 0.0, 20.0, 2.7, 0.2)
 petal_width = st.slider('Petal width (cm)', 0.0, 20.0, 2.7, 0.1)
 
-  if st.button('Predict'):
+if st.button('Predict'):
         feature_vector = np.array([sepal_length, sepal_width, petal_length, petal_width])
         feature_vector = feature_vector.reshape(1, -1)
         label = str((model.predict(feature_vector))[0])
