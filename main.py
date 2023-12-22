@@ -17,7 +17,7 @@ model = pkl.load(input)
 
 st.header('Choose the size of sepal and petal size')
 
-sepal_length = st.slider('Sepal length (cm)', 0.0, 20.0, 3, 0.2)
+sepal_length = st.slider('Sepal length (cm)', 0.0, 20.0, 3.0, 0.2)
 sepal_width = st.slider('Sepal width (cm)', 0.0, 20.0, 2.7, 0.1)
 petal_length = st.slider('Petal length (cm)', 0.0, 20.0, 2.7, 0.2)
 petal_width = st.slider('Petal width (cm)', 0.0, 20.0, 2.7, 0.1)
