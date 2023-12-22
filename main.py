@@ -11,7 +11,7 @@ st.title('Iris classification based on sepal and petal size')
 image = Image.open('iris.jpg')
 st.image(image)
 
-input = open('lrc_iris.pkl', 'rb')
+input = open('lrc_iris(1).pkl', 'rb')
 model = pkl.load(input)
 
 
